@@ -1,0 +1,62 @@
+.section-services {
+  width: 100%;
+  height: 100%;
+  padding: 90px 114px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 82px;
+  background-image: url(/img/universe-2742113.jpg);
+}
+.container-title__servicios {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 64px;
+}
+.container-madre {
+  display: grid;
+  gap: 44px;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* padding: 42px 40px; */
+}
+@media (max-width: 720px) {
+  .container-madre {
+    grid-template-columns: none;
+  }
+  .container-title__servicios {
+    font-size: 42px;
+  }
+}
+.container-cards {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 42px 47px;
+  background-color: rgba(57, 62, 70, 0.5);
+  border-radius: 16px;
+}
+@media (max-width: 720px) {
+  .container-cards {
+    padding: 42px 29px;
+  }
+}
+.container-service__img {
+  object-fit: cover;
+}
+.container-services__title {
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  font-weight: 700;
+}
+.container-services__paragraph {
+  text-align: left;
+  padding-bottom: 50px;
+  color: white;
+}

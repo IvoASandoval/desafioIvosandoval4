@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1e1e1e;
+}
+.services-span {
+  color: rgba(0, 173, 181, 1);
+}

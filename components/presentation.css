@@ -1,0 +1,62 @@
+/* .presentation-section {
+} */
+.presentation-container {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  background-color: rgba(25, 33, 48, 1);
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  gap: 177px;
+  margin: 0;
+  /* padding: 260px 0 0 0; */
+  padding: 260px 125px;
+}
+.presentation-container__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  /* height: 100%; */
+}
+@media (max-width: 720px) {
+  .presentation-container {
+    flex-direction: column;
+    padding: 71px 44px 112px 44px;
+    justify-content: center;
+    gap: 38px;
+    height: 100%;
+  }
+  .presentation-container__text {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.presentation-container__text--title {
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+}
+.presentation-container__text--paragraph {
+  width: 390px;
+  color: white;
+}
+.presentation-container__img {
+  /* width: 100%; */
+  height: 415px;
+  /* position: relative; */
+}
+@media (max-width: 720px) {
+  .presentation-container__text--title {
+    text-align: left;
+  }
+  .presentation-container__img {
+    width: 100%;
+
+    /* position: relative; */
+  }
+  .presentation-container__text--paragraph {
+    width: 100%;
+    text-align: left;
+  }
+}
